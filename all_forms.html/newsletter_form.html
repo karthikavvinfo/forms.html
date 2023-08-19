@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <title> Newsletter Form</title>
+    </head>
+    <body >
+       
+        <form method="post" action="newsletterform.php">
+            <table border="0" cellpadding="30" width="60%"align="center" bgcolor="orange">
+                <tbody>
+                    <tr>
+                        <td>
+                            <table border="0" width="100%" cellpadding="10" cellspacing="10" align="center" bgcolor="silver">
+                                <tbody>
+                                    <h1 align="center">Newsletter Form</h1>
+                                    <tr>
+                                        <td>
+                                            <strong>Name*</strong><br><input type="text" placeholder="First Name"name="fullname">
+                                        </td>
+                                        <td>
+                                            <br><input type="text" placeholder="Last Name" name="lastname">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong>Email Address</strong><br><input type="email" name="mailid">
+                                        </td>
+                                        <td>
+                                            <strong>Phone number*</strong><br>
+                                            <input type="number">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong>Company </strong><textarea name="taMessage" cols="50"></textarea><br><br>
+                                            Add me to your mailing list
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            <input type="checkbox">I agree to the terms and condition.
+                                            <input type="image" src="../form_project/submit.png" alt="submit" width="150"> 
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>

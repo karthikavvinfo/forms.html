@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <title> Subscription Form</title>
+    </head>
+    <body>
+        <form method="post" action="registrationform.php">
+            <table border="10"cellpadding="50" align="center" width="10%">
+                <tbody>
+                    <tr>
+                        <td>
+                            <table border="0"  align="center">
+                                <tbody>
+                                    <h1 align="center">Subscription Form</h1>
+                                    <tr>
+                                        <td align="left" bgcolor="silver">
+                                            <h2>Delivery address</h2>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table border="0" width="100%" align="center">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="left">
+                                                            First Name*<br><input type="text" name="firstname">
+                                                        </td>
+                                                        <br>
+                                                        <td align="left">
+                                                            Last Name*<br><input type="text" name="lastname">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td  align="left">
+                                                            Street Address*<br><textarea name="taMessage" cols="50"></textarea>
+                                                        </td>
+                                                        <td  align="left">
+                                                            Address Line 2<br><textarea name="taMessage" cols="50"></textarea>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            City*<br><input type="text" name="city">
+                                                        </td>
+                                                        <br>
+                                                        <td align="left">
+                                                            State*<br><input type="text" name="state">
+                                                        </td>
+                                                        <td align="left">
+                                                            Zipcode*<br><input type="text" name="zipcode">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            Phone Number*<br><input type="number" name="phonenumber">
+                                                        </td>
+                                                        <td align="left">
+                                                            Email Address*<br><input type="email" name="email">
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" bgcolor="silver">
+                                            <h2> Subscriptions</h2>
+                                        </td>
+                                   </tr>
+                                   <tr>
+                                        <td align="left">
+                                         <p>Choose one or more magazines for 150 INR per month.<br>
+                                            Subscription are autorenewed monthly until cancelled</p>
+                                        </td>
+                                   </tr>
+                                   <tr>
+                                        <td>
+                                            <h3>Magazine choices*</h3>
+                                              <input type="checkbox" name="chbox1">Car and Passengers<br>
+                                              <input type="checkbox" name="chbox2">Computers Today<br>
+                                              <input type="checkbox" name="chbox3">Fashion Factory<br>
+                                              <input type="checkbox" name="chbox4">Garden club<br>
+                                              <input type="checkbox" name="chbox5">Good Fishing<br><br><br>
+                                            <h3>Monthly Total:</h3><br>
+                                            &#8377;0.00<input type="button" value="calculate" name="calculate">
+                                        </td>
+                                   </tr>
+                                   <tr>
+                                        <td align="left" bgcolor="silver">
+                                           <h2>Billing address</h2>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left">
+                                            Billing address<br>
+                                            <input type="checkbox" name="billing">Same as delivery address
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table border="0" width="100%" align="center">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="left">
+                                                            First Name*<br><input type="text" name="firstname">
+                                                        </td>
+                                                        <br>
+                                                        <td align="left">
+                                                            Last Name*<br><input type="text" name="lastname">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td  align="left">
+                                                            Street Address*<br><textarea name="taMessage" cols="50"></textarea>
+                                                        </td>
+                                                        <td  align="left">
+                                                            Address Line 2<br><textarea name="taMessage" cols="50"></textarea>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            City*<br><input type="text" name="city">
+                                                        </td>
+                                                        <br>
+                                                        <td align="left">
+                                                            State*<br><input type="text" name="state">
+                                                        </td>
+                                                        <td align="left">
+                                                            Zipcode*<br><input type="text" name="zipcode">
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" bgcolor="silver">
+                                            <h2>Payments</h2>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Credit card type*<br>
+                                            <select>
+                                                <option>Visa</option>
+                                                <option>Mastercard</option>
+                                                <option>American Express</option>
+                                                <option>Discover</option>
+                                            </select><br>
+                                            Name on card*<br><input type="text" name="cardname">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table border="0" width="100%" align="center">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="left">
+                                                            Credit card number*<br><input type="text" name="cardname">
+                                                        </td>
+                                                        <br>
+                                                        <td align="left">
+                                                            Expire date*<br><input type="text" name="expiredate">
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                </tbody>
+                                            </table>
+                                            <tr>
+                                                <td align="center" cellpadding="50" width="100%" bgcolor="silver">
+                                                    <input type="submit" value="SUBSCRIBE" name="subscribe">
+                                                
+                                                </td>
+                                            </tr>
+                                        </td>
+                                    </tr>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+                </tbody>
+            </table>
+        </form>
+
+       
+        </body>
+        </html>
